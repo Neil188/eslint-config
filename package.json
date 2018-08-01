@@ -1,0 +1,41 @@
+{
+    "name": "@neil188/eslint-config",
+    "version": "1.0.0",
+    "description": "ESLint rules",
+    "main": "index.js",
+    "scripts": {
+        "disp-rules": "eslint --print-config *.js > rules.txt",
+        "find-new-rules": "eslint-find-rules ./index.js",
+        "lint": "eslint ."
+    },
+    "keywords": [
+        "eslint",
+        "config"
+    ],
+    "author": "N Lupton",
+    "license": "MIT",
+    "peerDependencies": {
+        "eslint": ">=5"
+    },
+    "devDependencies": {
+        "eslint": "^5.2.0",
+        "eslint-find-rules": "^3.3.1"
+    },
+    "dependencies": {
+        "babel-eslint": "^8.2.6",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-babel": "^5.1.0",
+        "eslint-plugin-import": "^2.13.0",
+        "eslint-plugin-jest": "^21.18.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.10.0"
+    },
+    "engines": {
+        "node": "8.11.x",
+        "npm": "6.2.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Neil188/eslint-config"
+    }
+}

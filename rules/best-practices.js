@@ -3,6 +3,12 @@ module.exports = {
         browser: true,
         node: true,
     },
+    'plugins': [
+        'security'
+    ],
+    'extends': [
+        'plugin:security/recommended'
+    ],
     rules: {
         'accessor-pairs': 'error',
         'array-callback-return': 'error',

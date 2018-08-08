@@ -1,10 +1,10 @@
 # eslint-config
 
-ESLint rules for my personal projects.  Setup copied from [Kent C Dodds eslint-config-kentcdodds](https://github.com/kentcdodds/eslint-config-kentcdodds) library.
+ESLint rules for my personal projects.
+Setup copied from [Kent C Dodds eslint-config-kentcdodds](https://github.com/kentcdodds/eslint-config-kentcdodds).
 With some config settings copied from the [airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 
-For additional information on setting up a shareable config file see the [ESlint guide](https://eslint.org/docs/developer-guide/shareable-configs)
-
+For a guide on setting up a shareable config file see the [ESlint guide](https://eslint.org/docs/developer-guide/shareable-configs).
 
 ## Usage
 
@@ -14,7 +14,8 @@ Install using:
 npm install --save-dev eslint @neil188/eslint-config
 ```
 
-Note: The following are included in this package so you don't need to install them yourself:
+Note:
+The following are included in this package so you don't need to install them yourself:
 
 * eslint-config-prettier
 * eslint-plugin-babel

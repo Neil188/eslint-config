@@ -36,6 +36,11 @@
         "node": "8.11.x",
         "npm": "6.2.x"
     },
+    "files": [
+        "rules",
+        "jest.js",
+        "react.js"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Neil188/eslint-config"

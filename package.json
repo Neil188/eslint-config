@@ -5,8 +5,10 @@
     "main": "index.js",
     "scripts": {
         "disp-rules": "eslint --print-config *.js > rules.txt",
-        "find-new-rules": "eslint-find-rules ./index.js",
-        "lint": "eslint ."
+        "find-new-rules-deprecated": "eslint-find-rules ./index.js -d -n",
+        "find-new-rules-unused": "eslint-find-rules ./index.js -u",
+        "lint": "eslint .",
+        "test": "npm run lint && npm run find-new-rules-deprecated && npm run find-new-rules-unused"
     },
     "keywords": [
         "eslint",

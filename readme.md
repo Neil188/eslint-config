@@ -1,5 +1,10 @@
 # eslint-config
 
+[![npm version](https://img.shields.io/npm/v/@neil188/eslint-config.svg?style=popout)](https://www.npmjs.com/package/@neil188/eslint-config)
+[![Travis build](https://img.shields.io/travis/Neil188/eslint-config/master.svg?style=popout)](https://travis-ci.org/Neil188/eslint-config)
+[![NpmLicense](https://img.shields.io/npm/l/@neil188/eslint-config.svg?style=popout)](https://www.npmjs.com/package/@neil188/eslint-config)
+[![GitHub last commit (master)](https://img.shields.io/github/last-commit/neil188/eslint-config/master.svg?style=popout)](https://github.com/Neil188/eslint-config)
+
 ESLint rules for my personal projects.
 Setup copied from [Kent C Dodds eslint-config-kentcdodds](https://github.com/kentcdodds/eslint-config-kentcdodds).
 With some config settings copied from the [airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).

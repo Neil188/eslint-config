@@ -10,6 +10,7 @@ module.exports = {
         'consistent-this': 'off',
         // ^ Too many use-cases for reassigning "this" to different values
         'eol-last': 'error',
+        'func-call-spacing': 'error',
         'func-names': 'error',
         'func-name-matching': 'error',
         'func-style': 'off',

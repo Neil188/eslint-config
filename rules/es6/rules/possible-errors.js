@@ -20,5 +20,6 @@ module.exports = {
             'single',
             { avoidEscape: true, allowTemplateLiterals: true },
         ],
+        'babel/valid-typeof': 'error',
     },
 }

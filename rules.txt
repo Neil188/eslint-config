@@ -1256,7 +1256,8 @@
         "avoidEscape": true,
         "allowTemplateLiterals": true
       }
-    ]
+    ],
+    "babel/valid-typeof": "error"
   },
   "parserOptions": {
     "ecmaFeatures": {

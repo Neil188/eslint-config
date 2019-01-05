@@ -7,4 +7,9 @@ module.exports = {
         './rules/jsx-a11y-rules.js',
     ],
     rules: {},
+    settings: {
+        react: {
+            version: 'detect'
+        }
+    }
 }

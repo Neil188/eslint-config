@@ -8,6 +8,7 @@ module.exports = {
         'import/no-dynamic-require': 'off',
         'import/prefer-default-export': 'off',
         'import/no-default-export': 'off',
+        'import/no-named-export': 'off',
         'import/unambiguous': 'off',
         'import/no-relative-parent-imports': 'off',
     }

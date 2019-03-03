@@ -261,7 +261,7 @@
     "KeyframeEffectReadOnly": false,
     "length": false,
     "localStorage": false,
-    "location": false,
+    "location": true,
     "Location": false,
     "locationbar": false,
     "matchMedia": false,
@@ -474,6 +474,7 @@
     "PushManager": false,
     "PushSubscription": false,
     "PushSubscriptionOptions": false,
+    "queueMicrotask": false,
     "RadioNodeList": false,
     "Range": false,
     "ReadableStream": false,
@@ -1195,23 +1196,11 @@
     "import/no-dynamic-require": "off",
     "import/prefer-default-export": "off",
     "import/no-default-export": "off",
+    "import/no-named-export": "off",
     "import/unambiguous": "off",
     "import/no-relative-parent-imports": "off",
     "arrow-body-style": "off",
-    "prefer-arrow-callback": [
-      2,
-      {
-        "allowNamedFunctions": true,
-        "allowUnboundThis": true
-      }
-    ],
-    "sort-imports": "off",
-    "babel/object-curly-spacing": [
-      "warn",
-      "always"
-    ],
-    "babel/semi": "off",
-    "babel/no-invalid-this": "error",
+    "babel/camelcase": "off",
     "babel/new-cap": [
       2,
       {
@@ -1220,6 +1209,20 @@
         "properties": false
       }
     ],
+    "babel/no-invalid-this": "error",
+    "babel/object-curly-spacing": [
+      "warn",
+      "always"
+    ],
+    "babel/semi": "off",
+    "prefer-arrow-callback": [
+      2,
+      {
+        "allowNamedFunctions": true,
+        "allowUnboundThis": true
+      }
+    ],
+    "sort-imports": "off",
     "class-methods-use-this": "off",
     "no-class-assign": "error",
     "no-duplicate-imports": "error",
@@ -1236,12 +1239,6 @@
     "prefer-template": "error",
     "require-yield": "error",
     "symbol-description": "error",
-    "constructor-super": "error",
-    "no-await-in-loop": "error",
-    "no-const-assign": "error",
-    "no-dupe-class-members": "error",
-    "no-new-symbol": "error",
-    "no-this-before-super": "error",
     "babel/no-unused-expressions": [
       "error",
       {
@@ -1257,7 +1254,13 @@
         "allowTemplateLiterals": true
       }
     ],
-    "babel/valid-typeof": "error"
+    "babel/valid-typeof": "error",
+    "constructor-super": "error",
+    "no-await-in-loop": "error",
+    "no-const-assign": "error",
+    "no-dupe-class-members": "error",
+    "no-new-symbol": "error",
+    "no-this-before-super": "error"
   },
   "parserOptions": {
     "ecmaFeatures": {
@@ -1291,5 +1294,5 @@
       ".(scss|less|css|styl)$"
     ]
   },
-  "parser": "D:\\Users\\Neil\\Workspace\\github\\eslint-config\\node_modules\\babel-eslint\\lib\\index.js"
+  "parser": "C:\\Users\\Neil\\Documents\\Workspace\\eslint-config\\node_modules\\babel-eslint\\lib\\index.js"
 }

@@ -73,6 +73,7 @@ module.exports = {
         ],
         'no-unused-labels': 'error',
         'no-useless-call': 'error',
+        'no-useless-catch': 'error',
         'no-useless-concat': 'error',
         'no-useless-escape': 'error',
         'no-useless-return': 'error',
@@ -80,6 +81,7 @@ module.exports = {
         'no-warning-comments': ['error', { terms: ['fixme'], location: 'anywhere' }],
         'no-with': 'off',
         'prefer-promise-reject-errors': 'off', // maybe one day... Not sure I'm in...
+        'prefer-named-capture-group': 'warn',
         radix: 'error',
         'require-await': 'error',
         'vars-on-top': 'error',
